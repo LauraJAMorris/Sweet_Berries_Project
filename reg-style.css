@@ -1,0 +1,50 @@
+html, body {
+      height: 100%;
+      width: 100%;
+      font-family: 'Roboto', sans-serif;
+}
+
+*{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+}
+
+.registration-container {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      border: none;
+}
+
+.info-form{
+      padding: 16px;
+      padding-bottom: 16px;
+      border-radius: 8px;
+      border: none;
+}
+
+.dropdown-menu{
+     padding: 16px;
+     padding-bottom: 16px;
+     border-radius: 8px;
+     font-family: 'Roboto', sans-serif;
+     border: none;
+}
+
+.buttons{
+      padding: 8px;
+      border: none;
+}
+          
+.footer{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      background-color: #FF4C4C;
+      color: white;
+      width: auto;
+      height: 50px;
+      grid-column: 1/-1;
+      padding-left: 50px;
+}
