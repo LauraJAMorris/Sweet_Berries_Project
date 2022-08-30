@@ -15,26 +15,75 @@ html, body {
       align-content: center;
       justify-content: center;
       border: none;
+      min-height: 90vh;
 }
 
-.info_form{
+.info-form{
       padding: 16px;
       padding-bottom: 16px;
       border-radius: 8px;
-      border: none;
+      width: 60%;
+      min-height: 60vh;
 }
 
-.dropdown-menu{
+.input-wrapper{
+      display: flex;
+      margin-top: 20px;
+}
+
+.input-wrapper input{
+      border: none;
+      background-color: #FF4C4C;
+      padding: 8px;
+      width: 50%;
+      border-radius: 8px;
+}
+
+.input-wrapper select{
+      border: none;
+      background-color: #FF4C4C;
+      padding: 8px;
+      width: 50%;
+      color: white;
+      border-radius: 8px;
+}
+
+.input-wrapper textarea{
+      resize: none;
+      border: none;
+      background-color: #FF4C4C;
+      border-radius: 8px;
+}
+
+.input-wrapper label{
+      width: 90%;
+      border-radius: 8px;
+}
+
+/* .dropdown-menu{
      padding: 16px;
      padding-bottom: 16px;
      border-radius: 8px;
      font-family: 'Roboto', sans-serif;
      border: none;
-}
+} */
 
 .buttons{
       padding: 8px;
       border: none;
+      width: 50%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      border-radius: 8px;
+      margin-top: 32px;
+}
+
+.buttons input{
+      color: #FF4C4C;
+      border: none;
+      background-color: white;
+      font-size: 16px;
 }
           
 .footer{
